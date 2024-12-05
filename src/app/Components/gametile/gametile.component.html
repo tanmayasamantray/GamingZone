@@ -1,0 +1,7 @@
+<section>
+    <img [src]= "game.image" alt="game.name">
+    <h2>{{game.name}}</h2>
+    <p>{{game.developedBy}}</p>
+    <p>{{game.downloads}}</p>
+    <a [routerLink]="['/details', game.id]">Deep Dive</a>
+</section>

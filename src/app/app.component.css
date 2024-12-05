@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.nav-main{
+    background-color: #1a1a1a;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+}
+
+.nav-home-btn,
+.nav-prod-btn{
+    margin-right: 20px;
+    color: #ff4f00;
+    text-align: center;
+    font-family: "Aclonica";
+    font-weight: 550;
+    font-size: 25px;
+    padding: 0px 20px 0px 0px;
+}
+.push-right{
+    margin-left: auto;
+}
+.nav-home-btn:hover, .nav-prod-btn:hover{
+    color: #b03800;
+}
+.brand-logo{
+    margin-left: 40px;
+}
