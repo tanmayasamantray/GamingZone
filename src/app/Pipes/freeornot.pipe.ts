@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FreeornotPipe implements PipeTransform {
 
-  transform(value: number): any {
+  transform(value: any): any {
     if(value <= 0){
       return 'Free';
     }

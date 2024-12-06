@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class NumstrPipe implements PipeTransform {
 
-  transform(value: number): string {
+  transform(value: any): any {
     if (value >= 1000000) {
       return (value /1000000).toFixed(1) + 'M'
     }

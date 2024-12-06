@@ -12,3 +12,19 @@
     border-radius: 10px;
     border: 5px solid #170a0a;
 }
+.image1{
+    animation: slideInLeft 2s ease-in-out;
+}
+.image2{
+    animation: slideInRight 2s ease-in-out;
+}
+
+@keyframes slideInLeft{
+    from { transform: translateX(-100%);}
+    to { transform: translateX(0);}
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%);}
+    to {transform: translate(0);}
+}
