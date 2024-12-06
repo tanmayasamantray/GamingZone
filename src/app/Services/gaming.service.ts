@@ -9,8 +9,9 @@ export class GamingService {
   protected gameList: GamesList[] = [
       {
         "id": 0,
-        "name": "The Legend of Zelda: Breath of the Wild",
-        "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+        "name": "The Legend of Zelda",
+        "price": 45.99,
+        "image": "https://images.everyeye.it/img-cover/the-legend-of-zelda-breath-of-the-wild-v15-18735.jpg",
         "developedBy": "Nintendo",
         "downloads": 25000000,
         "description": "An open-world adventure game where players explore the kingdom of Hyrule to defeat the evil Calamity Ganon.",
@@ -20,6 +21,7 @@ export class GamingService {
       {
         "id": 1,
         "name": "Minecraft",
+        "price": 15.99,
         "image": "https://m.media-amazon.com/images/M/MV5BNjQzMDlkNDctYmE3Yi00ZWFiLTlmOWYtMjI4MzQ4Y2JhZjY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "developedBy": "Mojang Studios",
         "downloads": 238000000,
@@ -30,16 +32,18 @@ export class GamingService {
       {
         "id": 2,
         "name": "Fortnite",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZWoQF_EWvGqGmMfE5eDd4M5q6yjpdExdWvA&s",
+        "price": 0,
+        "image": "https://i.pinimg.com/736x/8f/16/e9/8f16e97ab5cc7873debc229c7a527a07.jpg",
         "developedBy": "Epic Games",
         "downloads": 100000000,
         "description": "A battle royale game where 100 players fight to be the last one standing.",
-        "detail_image": "https://hyperpc.ae/images/support/articles/pc-for-fortnite/fortnite-banner_webp.jpg",
+        "detail_image": "https://i.ytimg.com/vi/5Vzxj6flcfM/maxresdefault.jpg",
         "likes": 4500000
       },
       {
         "id": 3,
         "name": "Genshin Impact",
+        "price": 0,
         "image": "https://cdn1.epicgames.com/offer/879b0d8776ab46a59a129983ba78f0ce/genshintall_1200x1600-4a5697be3925e8cb1f59725a9830cafc",
         "developedBy": "miHoYo",
         "downloads": 60000000,
@@ -50,6 +54,7 @@ export class GamingService {
       {
         "id": 4,
         "name": "Grand Theft Auto V",
+        "price": 30.99,
         "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
         "developedBy": "Rockstar Games",
         "downloads": 180000000,
@@ -60,6 +65,7 @@ export class GamingService {
       {
         "id": 5,
         "name": "Call of Duty: Warzone",
+        "price": 23.99,
         "image": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0123/978efa66c9645e4692ac7036a31aa002a49d0efb4b88b45c.png",
         "developedBy": "Infinity Ward",
         "downloads": 125000000,
@@ -70,6 +76,7 @@ export class GamingService {
       {
         "id": 6,
         "name": "Among Us",
+        "price": 0,
         "image": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/among-us/e/ef/1f9249103f371671071532e02e3ab39d2da49cbe.png",
         "developedBy": "Innersloth",
         "downloads": 500000000,
@@ -80,7 +87,8 @@ export class GamingService {
       {
         "id": 7,
         "name": "Hollow Knight",
-        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1030300/capsule_616x353.jpg?t=1695443850",
+        "price": 12.19,
+        "image": "https://image.api.playstation.com/cdn/EP1805/CUSA13285_00/DmwPWlU0468FbsjrtI92FhQz1xBYMoog.png",
         "developedBy": "Team Cherry",
         "downloads": 3000000,
         "description": "A 2D action-adventure game with a dark and mysterious atmosphere.",

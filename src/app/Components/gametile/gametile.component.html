@@ -1,7 +1,10 @@
-<section>
-    <img [src]= "game.image" alt="game.name">
-    <h2>{{game.name}}</h2>
-    <p>{{game.developedBy}}</p>
-    <p>{{game.downloads}}</p>
-    <a [routerLink]="['/details', game.id]">Deep Dive</a>
-</section>
+<a [routerLink]="['/details', game.id]">
+    <section class="tile-main">
+        <img [src]= "game.image" alt="game.name" style="height: 400px; width: 300px; border-radius: 10px; border-style: none;">
+        <h2>{{game.name}}</h2>
+        <p *ngIf="game.price <= 0;else notfree">{{game.price | freeornot}}</p>
+        <ng-template #notfree><p>{{game.price | currency}}</p></ng-template>
+        <p>Developed By: {{game.developedBy}}</p>
+        <p>Downloads: {{game.downloads | numstr}}</p>
+    </section>
+</a>

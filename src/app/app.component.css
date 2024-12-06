@@ -7,6 +7,7 @@ a{
     background-color: #1a1a1a;
     padding: 10px 0px 10px 0px;
     display: flex;
+    position: sticky;
 }
 
 .nav-home-btn,

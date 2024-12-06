@@ -1,11 +1,9 @@
-<article>
-    <section>
-        <img [src]="gameList?.image" alt="">
-        <img [src]="gameList?.detail_image" alt="">
-        <p>{{gameList?.name}}</p>
-        <p>{{gameList?.developedBy}}</p>
-        <p>{{gameList?.downloads}}</p>
-        <p>{{gameList?.likes}}</p>
-        <p>{{gameList?.description}}</p>
-    </section>
-</article>
+<section class="detail-sect">
+    <img [src]="gameList?.image" alt="" class="image1">
+    <img [src]="gameList?.detail_image" alt="" class="image2">
+    <h1>{{gameList?.name}}</h1>
+    <p>{{gameList?.developedBy}}</p>
+    <p>{{gameList?.downloads}}</p>
+    <p>{{gameList?.likes}}</p>
+    <p>{{gameList?.description}}</p>
+</section>

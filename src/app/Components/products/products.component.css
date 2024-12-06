@@ -1,0 +1,9 @@
+.results{
+    background-image: url("../../assets/home-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}

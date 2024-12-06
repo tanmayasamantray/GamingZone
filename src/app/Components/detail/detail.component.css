@@ -1,0 +1,14 @@
+.detail-sect{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image1,
+.image2{
+    height: 500px;
+    width: 600px;
+    margin: 20px 30px 20px;
+    border-radius: 10px;
+    border: 5px solid #170a0a;
+}

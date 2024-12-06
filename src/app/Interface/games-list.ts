@@ -1,6 +1,7 @@
 export interface GamesList {
     id: number,
     name: string,
+    price: number
     image: string,
     developedBy: string,
     downloads: number,
